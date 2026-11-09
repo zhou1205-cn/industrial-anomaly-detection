@@ -1,0 +1,18 @@
+# PyTorch 需按显卡架构单独安装，不要在本文件里锁版本：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# RTX 50 系（Blackwell / sm_120）必须 cu128 及以上，cu121 / cu124 会报
+#   "no kernel image is available for execution on the device"
+
+torch>=2.6.0
+torchvision>=0.21.0
+
+opencv-python==4.11.0
+numpy>=1.26,<3.0
+matplotlib>=3.8
+tqdm>=4.66
+scikit-learn>=1.4
+streamlit>=1.40
+
+# 数据集下载（可选，已手动下载可跳过）
+huggingface_hub>=0.30
+hf_transfer>=0.1.6

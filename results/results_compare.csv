@@ -1,0 +1,16 @@
+category,trad_auroc,patchcore_auroc
+bottle,0.9881,1.0
+cable,0.6192,0.9153
+capsule,0.7164,0.9326
+carpet,0.244,0.8612
+grid,0.675,0.6165
+hazelnut,0.4964,0.9993
+leather,0.8193,0.9769
+metal_nut,0.4751,0.9868
+pill,0.6075,0.8576
+screw,0.4689,0.8467
+tile,0.9614,0.9004
+toothbrush,0.8111,0.9056
+transistor,0.8096,0.9358
+wood,0.9404,0.9798
+zipper,0.7558,0.9262

@@ -1,0 +1,48 @@
+# ---------- 数据 ----------
+# 数据集体积约 4.5 GB，绝不提交
+data/
+datasets/
+*.tar
+*.zip
+*.rar
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# ---------- 模型与缓存 ----------
+*.pth
+*.pt
+*.ckpt
+.cache/
+~/.cache/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+.settings/
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时产物 ----------
+*.log
+*.tmp
+temp/
+scratch/
+
+# ---------- 说明 ----------
+# results/*.csv 需要提交（作品集展示用）
+# results/*.png 的中间调试图按需保留

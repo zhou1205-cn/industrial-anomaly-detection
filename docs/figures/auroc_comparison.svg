@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 668" width="860" height="668" font-family="Microsoft YaHei, PingFang SC, Helvetica, Arial, sans-serif">
+  <rect width="860" height="668" fill="#fbfaf7"/>
+
+  <text x="16" y="34" font-size="17" font-weight="600" fill="#1b1c1a">15 类产品上的图像级 AUROC 对比</text>
+  <text x="16" y="56" font-size="12" fill="#7c7f75">MVTec AD · ResNet-18 骨干 · 输入 320×320 · 记忆库采样 10% · k=9</text>
+
+  <rect x="16" y="76" width="11" height="11" fill="#bbb8ae"/>
+  <text x="34" y="86" font-size="12" fill="#474a44">传统统计差分法（平均 0.693）</text>
+  <rect x="216" y="76" width="11" height="11" fill="#14395c"/>
+  <text x="234" y="86" font-size="12" fill="#474a44">PatchCore（平均 0.909）</text>
+  <rect x="396" y="76" width="11" height="11" fill="#a8571b"/>
+  <text x="414" y="86" font-size="12" fill="#474a44">PatchCore 反而不如传统</text>
+
+  <g stroke="#e8e5dc" stroke-width="1">
+    <line x1="232" y1="96" x2="232" y2="622"/>
+    <line x1="364" y1="96" x2="364" y2="622"/>
+    <line x1="496" y1="96" x2="496" y2="622"/>
+    <line x1="628" y1="96" x2="628" y2="622"/>
+  </g>
+  <line x1="100" y1="622" x2="760" y2="622" stroke="#d9d6cc" stroke-width="1"/>
+
+  <g font-size="12" fill="#474a44">
+    <text x="92" y="100" text-anchor="end">bottle</text>
+    <text x="92" y="136" text-anchor="end">cable</text>
+    <text x="92" y="172" text-anchor="end">capsule</text>
+    <text x="92" y="208" text-anchor="end">carpet</text>
+    <text x="92" y="244" text-anchor="end">grid</text>
+    <text x="92" y="280" text-anchor="end">hazelnut</text>
+    <text x="92" y="316" text-anchor="end">leather</text>
+    <text x="92" y="352" text-anchor="end">metal_nut</text>
+    <text x="92" y="388" text-anchor="end">pill</text>
+    <text x="92" y="424" text-anchor="end">screw</text>
+    <text x="92" y="460" text-anchor="end">tile</text>
+    <text x="92" y="496" text-anchor="end">toothbrush</text>
+    <text x="92" y="532" text-anchor="end">transistor</text>
+    <text x="92" y="568" text-anchor="end">wood</text>
+    <text x="92" y="604" text-anchor="end">zipper</text>
+  </g>
+
+  <g>
+    <!-- bottle -->
+    <rect x="100" y="90"  width="652.1" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="103" width="660"   height="10" fill="#14395c"/>
+    <text x="766" y="112" font-size="10.5" fill="#474a44">1.000</text>
+    <!-- cable -->
+    <rect x="100" y="126" width="408.7" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="139" width="604.1" height="10" fill="#14395c"/>
+    <text x="710" y="148" font-size="10.5" fill="#474a44">0.915</text>
+    <!-- capsule -->
+    <rect x="100" y="162" width="472.8" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="175" width="615.5" height="10" fill="#14395c"/>
+    <text x="721" y="184" font-size="10.5" fill="#474a44">0.933</text>
+    <!-- carpet -->
+    <rect x="100" y="198" width="161"   height="10" fill="#bbb8ae"/>
+    <rect x="100" y="211" width="568.4" height="10" fill="#14395c"/>
+    <text x="674" y="220" font-size="10.5" fill="#474a44">0.861</text>
+    <!-- grid -->
+    <rect x="100" y="234" width="445.5" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="247" width="406.9" height="10" fill="#a8571b"/>
+    <text x="512" y="256" font-size="10.5" fill="#a8571b">0.617</text>
+    <!-- hazelnut -->
+    <rect x="100" y="270" width="327.6" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="283" width="659.5" height="10" fill="#14395c"/>
+    <text x="765" y="292" font-size="10.5" fill="#474a44">0.999</text>
+    <!-- leather -->
+    <rect x="100" y="306" width="540.7" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="319" width="644.8" height="10" fill="#14395c"/>
+    <text x="750" y="328" font-size="10.5" fill="#474a44">0.977</text>
+    <!-- metal_nut -->
+    <rect x="100" y="342" width="313.6" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="355" width="651.3" height="10" fill="#14395c"/>
+    <text x="757" y="364" font-size="10.5" fill="#474a44">0.987</text>
+    <!-- pill -->
+    <rect x="100" y="378" width="401"   height="10" fill="#bbb8ae"/>
+    <rect x="100" y="391" width="566"   height="10" fill="#14395c"/>
+    <text x="672" y="400" font-size="10.5" fill="#474a44">0.858</text>
+    <!-- screw -->
+    <rect x="100" y="414" width="309.5" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="427" width="558.8" height="10" fill="#14395c"/>
+    <text x="664" y="436" font-size="10.5" fill="#474a44">0.847</text>
+    <!-- tile -->
+    <rect x="100" y="450" width="634.5" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="463" width="594.3" height="10" fill="#a8571b"/>
+    <text x="700" y="472" font-size="10.5" fill="#a8571b">0.900</text>
+    <!-- toothbrush -->
+    <rect x="100" y="486" width="535.3" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="499" width="597.7" height="10" fill="#14395c"/>
+    <text x="703" y="508" font-size="10.5" fill="#474a44">0.906</text>
+    <!-- transistor -->
+    <rect x="100" y="522" width="534.3" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="535" width="617.6" height="10" fill="#14395c"/>
+    <text x="723" y="544" font-size="10.5" fill="#474a44">0.936</text>
+    <!-- wood -->
+    <rect x="100" y="558" width="620.7" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="571" width="646.7" height="10" fill="#14395c"/>
+    <text x="752" y="580" font-size="10.5" fill="#474a44">0.980</text>
+    <!-- zipper -->
+    <rect x="100" y="594" width="498.8" height="10" fill="#bbb8ae"/>
+    <rect x="100" y="607" width="611.3" height="10" fill="#14395c"/>
+    <text x="717" y="616" font-size="10.5" fill="#474a44">0.926</text>
+  </g>
+
+  <g font-size="11" fill="#7c7f75" text-anchor="middle">
+    <text x="100" y="642">0</text>
+    <text x="232" y="642">0.2</text>
+    <text x="364" y="642">0.4</text>
+    <text x="496" y="642">0.6</text>
+    <text x="628" y="642">0.8</text>
+    <text x="760" y="642">1.0</text>
+  </g>
+  <text x="430" y="662" font-size="11.5" fill="#7c7f75" text-anchor="middle">AUROC（每种方法上方细条为传统法，下方为 PatchCore）</text>
+</svg>
